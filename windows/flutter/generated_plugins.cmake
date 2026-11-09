@@ -6,6 +6,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
   app_links
   audioplayers_windows
   awesome_notifications
+  battery_plus
   cloud_firestore
   connectivity_plus
   desktop_webview_window
