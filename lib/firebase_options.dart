@@ -24,26 +24,22 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // ✅ Firebase API key sudah diisi dengan key asli dari google-services.json
-  // Package: com.omnix.genz | Project: omnix-server
-
+  // Konfigurasi Firebase untuk Project: manta-app-4b648
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDJy6_nWl7GkDk_FLCJDuYy408nNoWdPEY',
-    appId: '1:156720077102:android:390ec84ba77677b9b282bf',
-    messagingSenderId: '156720077102',
-    projectId: 'omnix-server',
-    storageBucket: 'omnix-server.firebasestorage.app',
-    databaseURL:
-        'https://omnix-server-default-rtdb.asia-southeast1.firebasedatabase.app',
+    apiKey: 'AIzaSyBq15TvFR_R1oKQBCm2Y-6xRqDVDpQQ1qI',
+    appId: '1:724138431204:android:38564c43def3cb68c692f1',
+    messagingSenderId: '724138431204',
+    projectId: 'manta-app-4b648',
+    storageBucket: 'manta-app-4b648.firebasestorage.app',
+    databaseURL: 'https://manta-app-4b648-default-rtdb.asia-southeast1.firebasedatabase.app',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDJy6_nWl7GkDk_FLCJDuYy408nNoWdPEY',
-    appId: '1:156720077102:android:390ec84ba77677b9b282bf',
-    messagingSenderId: '156720077102',
-    projectId: 'omnix-server',
-    storageBucket: 'omnix-server.firebasestorage.app',
-    databaseURL:
-        'https://omnix-server-default-rtdb.asia-southeast1.firebasedatabase.app',
+    apiKey: 'AIzaSyBq15TvFR_R1oKQBCm2Y-6xRqDVDpQQ1qI',
+    appId: '1:724138431204:android:38564c43def3cb68c692f1',
+    messagingSenderId: '724138431204',
+    projectId: 'manta-app-4b648',
+    storageBucket: 'manta-app-4b648.firebasestorage.app',
+    databaseURL: 'https://manta-app-4b648-default-rtdb.asia-southeast1.firebasedatabase.app',
   );
 }
