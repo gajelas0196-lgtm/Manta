@@ -52,3 +52,5 @@ jdk-21_linux-x64_bin.tar.gz
 .env
 *.zip
 *.bak
+backup/
+analyze_output.txt
